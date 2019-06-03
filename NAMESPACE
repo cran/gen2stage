@@ -1,0 +1,6 @@
+exportPattern(".")
+import(stats,graphics,clinfun)
+export("gen2simon","oc.gentwostage.bdry","gen2single","gen2simon")
+S3method(print,gen2single)
+S3method(print,gen2simon)
+S3method(plot,gen2simon)
